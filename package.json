@@ -1,6 +1,6 @@
 {
   "name": "@easecloudio/mcp-metabase-server",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "A Model Context Protocol server for Metabase integration",
   "author": "Safoor Safdar <safoor@easecloud.io>",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "url": "https://github.com/easecloudio/mcp-metabase-server.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   },
   "homepage": "https://github.com/easecloudio/mcp-metabase-server",
   "bugs": {

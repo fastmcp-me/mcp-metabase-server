@@ -209,7 +209,7 @@ export METABASE_URL=https://your-metabase-instance.com
 export METABASE_API_KEY=your_metabase_api_key
 
 # Run the server
-npx @easecloud/mcp-metabase-server
+npx @easecloudio/mcp-metabase-server
 ```
 
 ### Method 2: Using Node.js directly
@@ -218,7 +218,7 @@ If you have the package installed locally or globally:
 
 ```bash
 # Install globally
-npm install -g @easecloud/mcp-metabase-server
+npm install -g @easecloudio/mcp-metabase-server
 
 # Set environment variables
 export METABASE_URL=https://your-metabase-instance.com
@@ -295,7 +295,7 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
   "mcpServers": {
     "metabase-server": {
       "command": "npx",
-      "args": ["@easecloud/mcp-metabase-server"],
+      "args": ["@easecloudio/mcp-metabase-server"],
       "env": {
         "METABASE_URL": "https://your-metabase-instance.com",
         "METABASE_API_KEY": "your_metabase_api_key"
@@ -329,7 +329,7 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
   "mcpServers": {
     "metabase-server": {
       "command": "npx",
-      "args": ["@easecloud/mcp-metabase-server"],
+      "args": ["@easecloudio/mcp-metabase-server"],
       "env": {
         "METABASE_URL": "https://your-metabase-instance.com",
         "METABASE_USERNAME": "your_username",
