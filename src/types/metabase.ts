@@ -17,6 +17,7 @@ export interface Dashboard {
   archived?: boolean;
   parameters?: any[];
   cards?: DashboardCard[];
+  dashcards?: DashboardCard[];
 }
 
 export interface DashboardCard {

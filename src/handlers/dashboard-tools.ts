@@ -352,7 +352,7 @@ export class DashboardToolHandlers {
       content: [
         {
           type: "text",
-          text: JSON.stringify(dashboard.cards || [], null, 2),
+          text: JSON.stringify(dashboard.dashcards || [], null, 2),
         },
       ],
     };
@@ -415,7 +415,7 @@ export class DashboardToolHandlers {
         };
 
         // Add the new card to existing cards
-        const updatedCards = [...(dashboard.cards || []), newCard];
+        const updatedCards = [...(dashboard.dashcards || []), newCard];
 
         result = await this.client.apiCall(
           "PUT",

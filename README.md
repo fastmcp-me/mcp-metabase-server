@@ -1,11 +1,11 @@
-# metabase-server MCP Server
+# Metabase MCP Server
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/badge/GitHub-easecloudio%2Fmcp--metabase--server-blue)](https://github.com/easecloudio/mcp-metabase-server)
 
-A comprehensive Model Context Protocol server for Metabase integration.
+A comprehensive **Model Context Protocol (MCP) server for Metabase integration**, designed for enterprises and developers who want to supercharge their AI assistants with live analytics and business intelligence.
 
-**Developed by [EaseCloud Technologies](https://easecloud.io)**
+**Developed and maintained by [EaseCloud Technologies](https://easecloud.io)** — your trusted partner for **cloud-native, AI-driven, and data infrastructure solutions.**
 
 This is a TypeScript-based MCP server that implements full integration with Metabase API. It allows AI assistants to interact with Metabase, providing comprehensive access to:
 
@@ -19,6 +19,24 @@ This is a TypeScript-based MCP server that implements full integration with Meta
 - **Settings & Configuration**: System settings and instance configuration management
 
 ## **70+ Tools Available** covering all major Metabase functionality for enterprise usage.
+
+## Supported Metabase Versions
+
+This MCP server is compatible with:
+- **Metabase v0.46.x and above** (recommended: v0.48.x or later)
+- **Metabase Cloud** (fully supported)
+- **Self-hosted Metabase instances** (Docker, JAR, or cloud deployments)
+
+**Note:** Some advanced features may require newer Metabase versions. For optimal compatibility, we recommend using Metabase v0.48.0 or later.
+
+## Why We Built This
+
+At EaseCloud, we help companies modernize their data platforms and unlock the power of AI.  
+Metabase is a leading open-source BI tool — but connecting it with AI assistants like Claude, Cursor, and Windsurf requires complex API work.  
+
+This MCP server removes that barrier by providing **70+ ready-to-use tools** that cover everything from dashboards to queries, permissions to monitoring.  
+
+Our goal is to make **enterprise analytics accessible in natural language** while showcasing our expertise in **integration, automation, and cloud solutions.**
 
 ## Features
 
@@ -396,13 +414,49 @@ After configuring the environment variables as described in the "Configuration" 
   2.  Attempt to start the server.
   3.  The server should fail to start and log an error message stating that authentication credentials (either API key or username/password) are required (e.g., "Either (METABASE_URL and METABASE_API_KEY) or (METABASE_URL, METABASE_USERNAME, and METABASE_PASSWORD) environment variables are required").
 
+## About EaseCloud Technologies
+
+EaseCloud is a cloud consulting and solutions company specializing in:
+- Cloud-native application development
+- AI & automation integrations
+- DevOps and infrastructure management
+- Data analytics and BI platform consulting
+
+We built this project to contribute to the open-source MCP ecosystem while demonstrating our deep expertise in **data-driven decision systems.**  
+
+👉 If your team is adopting Metabase at scale or looking to integrate AI with your BI stack, [get in touch with us](https://easecloud.io) — we provide **consulting, customization, and managed support** for enterprises.
+
+---
+
+💡 **Work with EaseCloud**  
+Need help deploying, customizing, or scaling Metabase in production?  
+We provide end-to-end support for BI, AI, and cloud infrastructure.  
+
+📧 Contact us: [support@easecloud.io](mailto:support@easecloud.io)  
+🌐 Learn more: [https://easecloud.io](https://easecloud.io)
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
-For support, please contact us at [info@easecloud.io](mailto:info@easecloud.io) or visit our website at [EaseCloud.io](https://easecloud.io).
+For support, please contact us at [support@easecloud.io](mailto:support@easecloud.io) or visit our website at [EaseCloud.io](https://easecloud.io).
+
+## Bug Reports & Issues
+
+Found a bug or have a feature request? We'd love to hear from you!
+
+🐛 **Report Issues**: [Create a bug report on GitHub](https://github.com/easecloudio/mcp-metabase-server/issues)
+
+When reporting issues, please include:
+- Metabase version you're using
+- MCP server version
+- Steps to reproduce the issue
+- Expected vs actual behavior
+- Any error messages or logs
 
 ## Contributing
 
